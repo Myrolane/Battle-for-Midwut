@@ -1,0 +1,9 @@
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct	 s_perso
+{
+  char		 *pseudo;
+  char		 *creature;
+  struct s_perso *next;
+}		 *profil;

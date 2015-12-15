@@ -1,0 +1,21 @@
+#ifndef BattleForMidgar
+#define BattleForMidgar
+
+typedef struct  s_creature
+{
+  char		*name;
+  int		lvl;
+  int		pv;
+  int		pvmax;
+  int		pm;
+  int		pmmax;
+}		t_creature;
+
+typedef struct s_perso
+{
+  char		 *pseudo;
+  char		 *creature;
+  struct s_perso *next;
+}		 t_profil;
+
+#endif

@@ -1,0 +1,6 @@
+typedef struct s_perso
+{
+  char	*pseudo;
+  
+  struct s_perso *next;
+}		 perso;

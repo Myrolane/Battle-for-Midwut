@@ -1,0 +1,15 @@
+void	my_putchar();
+void	my_putstr();
+void	partie();
+
+int	main(char **argv)
+{
+  char	*pseudo;
+  char	*paramName;
+
+  my_putchar('\n');
+  paramName = argv[1];
+  pseudo = argv[2];
+  partie(paramName,pseudo);
+  return (0);
+}
