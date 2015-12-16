@@ -21,6 +21,11 @@ SRC	 = getCreature.c \
 	   my_putchar.c \
 	   my_put_nbr.c \
 	   my_putstr.c \
+	   affcreature.c \
+	   action.c \
+	   random.c \
+	   affdetail.c \
+	   my_test.c \
 	   main.c
 OBJ	 = $(SRC:%.c=%.o)
 

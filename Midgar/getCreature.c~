@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "prototype.h"
-#include "strucutre.h"
+#include "structure.h"
 
 #define NBCREA 5
 
@@ -21,7 +21,7 @@ t_creature	*getCreature()
   int		rnd;
   t_creature	*crea;
 
-  rnd = rand() % NBCREA;
+  rnd = random() % NBCREA;
   if ((crea = malloc(sizeof(t_creature))) == NULL)
     return (NULL);
   crea->name = my_strdup(g_creatures[rnd].name);

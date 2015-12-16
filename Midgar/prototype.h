@@ -9,6 +9,12 @@ char		*my_strdup();
 int		my_strlen();
 int		my_strcmp();
 void		my_putchar();
+char		*my_strdup();
 char 		*readLine();
+void		affcreature();
+void		action();
+int		random();
+void		affdetail();
+void		my_test();
 
 #endif

@@ -1,0 +1,20 @@
+#include <unistd.h>
+#include <stdlib.h>
+#include "prototype.h"
+#include "structure.h"
+
+t_creature	*getCreature();
+
+void	affdetail(char *pokemon)
+{
+  t_creature	*detailcrea;
+
+  detailcrea = malloc(sizeof(*detailcrea));
+  detailcrea = getCreature();
+  
+  my_putstr(pokemon);
+  my_put_nbr(detailcrea->lvl);
+  my_put_nbr(detailcrea->pv);
+  my_put_nbr(detailcrea->pvmax);
+  my_put_nbr(detailcrea->pmmax);
+}

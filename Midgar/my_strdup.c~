@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <unistd.h>
-
+void	my_putchar();
+int	my_strlen();
+void	my_putstr();
 char	my_strcpy();
 
 char	*my_strdup(char *str)
