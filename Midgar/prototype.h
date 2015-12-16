@@ -13,7 +13,7 @@ char		*my_strdup();
 char 		*readLine();
 void		affcreature();
 void		action();
-int		random();
+long		random();
 void		affdetail();
 void		my_test();
 

@@ -15,5 +15,6 @@ void		affcreature();
 void		action();
 int		random();
 void		affdetail();
+void		my_test();
 
 #endif
